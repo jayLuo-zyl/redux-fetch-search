@@ -1,0 +1,84 @@
+* {
+    /* outline: 1px dotted black; */
+    margin: 0px auto;
+    padding: 0px;
+  }
+  
+  .wrapper {
+    width: 1115px;
+    min-height: 600px;
+    padding: 10px 30px 30px 30px;
+    background-color: whitesmoke;
+  }
+  
+  .App {
+    text-align: center;
+    background-color: lightgreen;
+  }
+
+  .info {
+    width: 950px;
+    text-align: center;
+    background-color: greenyellow;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+  }
+
+  th, td{
+    padding: 0px 5px 0px 5px;
+    border: 1px solid black;
+  }
+
+.appTitle {
+  display: inline-block;
+  width: 160px;
+  text-align: center;
+}
+
+.searchBar {
+  display: inline-block;
+  /* padding: 0px 10px 0px 10px; */
+}
+.inputStyle {
+  font-size: 20px;
+  width: 930px;
+  height: 20px;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px 12px 10px 10px
+}
+
+.left-box {
+  width: 150px;
+  min-height: 9000px;
+  /* border: 1px solid lightblue; */
+  display: inline-block;
+  /* overflow: auto; */
+  background-color: #d6dadb7a;
+  margin: 10px 0px 0px 0px;
+}
+
+.vetos{
+  font-size: 12px;
+  padding: 10px 10px 10px 10px;;
+  border-radius: 5px;
+  margin: 10px 10px 10px 20px;
+  /* text-align: center; */
+}
+
+.right-box {
+    width: 950px;
+    min-height: 600px;
+    /* border: 1px solid lightgreen; */
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0px 0px 10px;
+}
+
+.top {
+    width: 695px;
+    min-height: 100px;
+    /* border: 1px solid black; */
+    display: inline-block;
+    vertical-align: top;
+}
